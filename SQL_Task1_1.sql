@@ -1,0 +1,2 @@
+SELECT COUNT(*) FROM Employees
+WHERE Active=1
