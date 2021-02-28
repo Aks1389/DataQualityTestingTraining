@@ -1,4 +1,4 @@
-select Count(CustomerID) from orders
+select Count(Distinct CustomerID) from orders
 where OrderId in(
 	select OrderID from OrderDetails
 	where ProductID in(
